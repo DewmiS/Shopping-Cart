@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+                font-family: Arial;
+            }
+
+            .img{
+                width: 200px;
+            }
+
+            .row1{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                background-color: rgb(73, 46, 143);
+                color: white;
+            }
+
+            .row2{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color: rgb(186, 203, 203);
+                padding-left: 25px;
+                padding-right: 25px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                height: 350px;
+            }
+
+            .row3{
+                display: flex;
+                flex-direction: column;
+                background-color: rgba(225, 212, 30, 0.888);
+                margin-top: 10px;
+            }
+
+            .item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: white;
+                padding-bottom: 10px;
+                
+            }
+
+            .ATC{
+                background-color: rgb(73, 46, 143);
+                color: white;
+                border: none;
+                font-size: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 25px;
+            }
+
+            .type{
+                margin-top: 20px;
+                font-size: 17px;
+            }
+
+            .cart{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: white;
+                font-size: 25px;
+                
+            }
+
+            .cartlist{
+                display: flex;
+                flex-direction: row;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row1">
+            <p style="font-size: 20px;">Items</p>
+        </div>
+
+        <div class="row2">
+            <div class="item">
+                <img class="img" src="iPhone-14-Pro-Max">
+                <p class="type">iPhone-14-Pro-Max</p>
+                <button class="ATC">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="item">
+                <img class="img" src="iphone-13-pro-max">
+                <p class="type">iphone-13-pro-max</p>
+                <button class="ATC">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="item">
+                <img class="img" src="iPhone-12-Blue">
+                <p class="type"p>iPhone-12-Blue</p>
+                <button class="ATC">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="item">
+                <img class="img" src="iPhone-11">
+                <p class="type"p>iPhone-11</p>
+                <button class="ATC">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="item">
+                <img class="img" src="iPhone-8-Plus">
+                <p class="type">iPhone-8-Plus</p>
+                <button class="ATC">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+
+        <div class="row3">
+            <div class="cart">
+                <p>Cart</p>
+            </div>
+
+            <div  class="cartlist">
+                <div>
+                    <img style="width: 110px; padding-right: 100px;" src="add to cart.svg">
+                </div>
+                <div>
+                    <p>Items</p>
+                    <p>
+                        1. iPhone-14-Pro-Max
+        
+                    <p>
+                        2. iPhone-11
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
